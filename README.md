@@ -7,3 +7,8 @@ Abstract:Generating 3D human motion based on textual descriptions has been a res
    The former focuses on the motion embedding perspective, which means introducing a body-part spatio-temporal encoder into VQ-VAE to learn a more expressive discrete latent space. 
    The latter is from the cross-modal perspective, which is used to learn the sentence-level and word-level motion-text cross-modal relationship. The text-driven motion is finally generated with a generative transformer. 
    Extensive experiments conducted on HumanML3D and KIT-ML demonstrate that our method outperforms the current state-of-the-art works in terms of qualitative and quantitative evaluation, and achieve fine-grained synthesis and action2motion. Our code will be publicly available.
+
+
+# Acknowledgements
+
+Part of the code is borrowed from "T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations"
