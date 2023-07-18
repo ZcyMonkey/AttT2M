@@ -1,6 +1,6 @@
 # AttT2M
 
-Code of paper: AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism
+Code of ICCV 2023 paper: AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism
 
 Abstract:Generating 3D human motion based on textual descriptions has been a research focus in recent years. It requires the generated motion to be diverse, natural, and conform to the textual description. 
    Due to the complex spatio-temporal nature of human motion and the difficulty in learning the cross-modal relationship between text and motion, text-driven motion generation is still a challenging problem. To address these issues, we propose AttT2M, a two-stage method with multi-perspective attention mechanism: body-part attention and global-local motion-text attention. 
