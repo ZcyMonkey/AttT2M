@@ -15,7 +15,7 @@ Code of ICCV 2023 paper: "AttT2M: Text-Driven Human Motion Generation with Multi
 
 ### Compare with SOTA
 <p align="center">
-<img src="img/compare.gif" width="600px" alt="compare">
+<img src="img/compare.gif" width="600px" alt="gif">
 </p>
 
 ### 1.2 Quantitative Results
