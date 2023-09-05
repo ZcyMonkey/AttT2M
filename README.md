@@ -6,7 +6,7 @@ Code of ICCV 2023 paper: "AttT2M: Text-Driven Human Motion Generation with Multi
 
 
 <p align="center">
-<img src="teaser.pdf" width="600px" alt="teaser">
+<img src="img/teaser.png" width="600px" alt="teaser">
 </p>
 
 ## 1. Results
