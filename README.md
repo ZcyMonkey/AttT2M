@@ -18,39 +18,31 @@ Code of ICCV 2023 paper: "AttT2M: Text-Driven Human Motion Generation with Multi
 <p align="center">
 <table>
   <tr>
-    <th colspan="5">Text: a man steps forward and does a handstand.</th>
+    <th colspan="5">Text: a person quickly waves with their right hand.</th>
   </tr>
   <tr>
-    <th>GT</th>
-    <th><u><a href="https://ericguo5513.github.io/text-to-motion/"><nobr>T2M</nobr> </a></u></th>
-    <th><u><a href="https://guytevet.github.io/mdm-page/"><nobr>MDM</nobr> </a></u></th>
+    <th><u><a href="https://github.com/Mael-zys/T2M-GPT/"><nobr>T2M-GPT</nobr> </a></u></th>
     <th><u><a href="https://mingyuan-zhang.github.io/projects/MotionDiffuse.html"><nobr>MotionDiffuse</nobr> </a></u></th>
     <th>Ours</th>
   </tr>
   
   <tr>
-    <td><img src="img/002103_gt_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/002103_pred_t2m_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/002103_pred_mdm_16.gif" width="140px" alt="gif"></td>
+    <td><img src="img/002103_pred_t2m_gpt_16.gif" width="140px" alt="gif"></td>
     <td><img src="img/002103_pred_MotionDiffuse_16.gif" width="140px" alt="gif"></td>
     <td><img src="img/002103_pred_16.gif" width="140px" alt="gif"></td>
   </tr>
 
   <tr>
-    <th colspan="5">Text: A man rises from the ground, walks in a circle and sits back down on the ground.</th>
+    <th colspan="5">Text: A person walk in a circle clockwise.</th>
   </tr>
   <tr>
-    <th>GT</th>
-    <th><u><a href="https://ericguo5513.github.io/text-to-motion/"><nobr>T2M</nobr> </a></u></th>
-    <th><u><a href="https://guytevet.github.io/mdm-page/"><nobr>MDM</nobr> </a></u></th>
+    <th><u><a href="https://github.com/Mael-zys/T2M-GPT/"><nobr>T2M-GPT</nobr> </a></u></th>
     <th><u><a href="https://mingyuan-zhang.github.io/projects/MotionDiffuse.html"><nobr>MotionDiffuse</nobr> </a></u></th>
     <th>Ours</th>
   </tr>
   
   <tr>
-    <td><img src="img/000066_gt_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/000066_pred_t2m_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/000066_pred_mdm_16.gif" width="140px" alt="gif"></td>
+    <td><img src="img/000066_pred_t2m_gpt_16.gif" width="140px" alt="gif"></td>
     <td><img src="img/000066_pred_MotionDiffuse_16.gif" width="140px" alt="gif"></td>
     <td><img src="img/000066_pred_16.gif" width="140px" alt="gif"></td>
   </tr>
