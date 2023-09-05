@@ -61,16 +61,13 @@ Motion & text feature extractors are also provided by [t2m](https://github.com/E
 ```
 python vis.py
 ```
-<details>
-<summary>
+
 ## 4. Train
-</summary>
 
 coming
 
 
 ## 5. Evaluation 
-</summary>
 coming
 
 ## 6. Acknowledgement
