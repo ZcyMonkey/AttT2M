@@ -13,40 +13,9 @@ Code of ICCV 2023 paper: "AttT2M: Text-Driven Human Motion Generation with Multi
 
 ### 1.1 Visual Results
 
-<!-- ![visualization](img/ALLvis_new.png) -->
-
+### Compare with SOTA
 <p align="center">
-<table>
-  <tr>
-    <th colspan="5">Text: a person quickly waves with their right hand.</th>
-  </tr>
-  <tr>
-    <th><u><a href="https://github.com/Mael-zys/T2M-GPT/"><nobr>T2M-GPT</nobr> </a></u></th>
-    <th><u><a href="https://mingyuan-zhang.github.io/projects/MotionDiffuse.html"><nobr>MotionDiffuse</nobr> </a></u></th>
-    <th>Ours</th>
-  </tr>
-  
-  <tr>
-    <td><img src="img/002103_pred_t2m_gpt_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/002103_pred_MotionDiffuse_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/002103_pred_16.gif" width="140px" alt="gif"></td>
-  </tr>
-
-  <tr>
-    <th colspan="5">Text: A person walk in a circle clockwise.</th>
-  </tr>
-  <tr>
-    <th><u><a href="https://github.com/Mael-zys/T2M-GPT/"><nobr>T2M-GPT</nobr> </a></u></th>
-    <th><u><a href="https://mingyuan-zhang.github.io/projects/MotionDiffuse.html"><nobr>MotionDiffuse</nobr> </a></u></th>
-    <th>Ours</th>
-  </tr>
-  
-  <tr>
-    <td><img src="img/000066_pred_t2m_gpt_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/000066_pred_MotionDiffuse_16.gif" width="140px" alt="gif"></td>
-    <td><img src="img/000066_pred_16.gif" width="140px" alt="gif"></td>
-  </tr>
-</table>
+<img src="img/compare.png" width="600px" alt="compare">
 </p>
 
 ### 1.2 Quantitative Results
