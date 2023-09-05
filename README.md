@@ -76,12 +76,12 @@ python vis.py
 
 ## 4. Train
 
-TBD
+coming
 
 
 ## 5. Evaluation 
 
-TBD
+coming
 
 ## 6. Acknowledgement
 
