@@ -1,4 +1,4 @@
-name: T2M-GPT
+name: Att-T2M
 channels:
   - pytorch
   - defaults
