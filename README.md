@@ -2,7 +2,7 @@
 
 Code of ICCV 2023 paper: "AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism"
 
-[[Paper]](https://1234/) [[Bilibili Video]](https://www.bilibili.com/video/BV1Mm4y1K7cw/?vd_source=fba547ec815d2cee49e1b57482ce848b))
+[[Paper]](https://arxiv.org/abs/2309.00796) [[Bilibili Video]](https://www.bilibili.com/video/BV1Mm4y1K7cw/?vd_source=fba547ec815d2cee49e1b57482ce848b))
 
 
 <p align="center">
