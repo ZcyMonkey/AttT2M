@@ -59,6 +59,25 @@ Motion & text feature extractors are also provided by [t2m](https://github.com/E
 
 
 ## 3. Quick Start
+1.First step: Download the pre-train models from [Google Drive](https://drive.google.com/file/d/1UguYU5YSmhOanzPp79AsLxTeyIjPHEZA/view?usp=sharing)
+```
+pretrain_models/
+   ├── HumanML3D/
+      ├── Trans/
+         ├──net_best_fid.pth
+         ├──run.log
+      ├── VQVAE/
+         ├──net_last.pth
+   ├── KIT/
+      ├── Trans/
+         ├──net_last_290000.pth
+         ├──run.log
+      ├── VQVAE/
+         ├──net_last.pth
+```
+2. Second step:Download other models from [Google Drive](https://drive.google.com/file/d/1F3MikRtC9IDEIzG5_U2r7qj4vLg1vYuq/view?usp=sharing)
+
+3.Third step:run the visualize script： 
 ```
 python vis.py
 ```
