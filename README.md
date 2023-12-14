@@ -83,8 +83,37 @@ python vis.py
 ```
 
 ## 4. Train
+Preparation: you need to download the necessary material from Google Drive:[material1](https://drive.google.com/file/d/1F3MikRtC9IDEIzG5_U2r7qj4vLg1vYuq/view?usp=sharing), [material2](https://drive.google.com/file/d/1msoOkokY1uU8kRBpldu_jNudh4-u0jjo/view?usp=sharing)
 
-coming
+### 4.1. VQ-VAE 
+
+The VAVAE trian parameters are almost the same as T2M GPT
+
+<details>
+<summary>
+VQ training
+</summary>
+
+```bash
+python3 train_vq.py \
+--batch-size 256 \
+--lr 2e-4 \
+--total-iter 300000 \
+--lr-scheduler 200000 \
+--nb-code 512 \
+--down-t 2 \
+--depth 3 \
+--dilation-growth-rate 3 \
+--out-dir output \
+--dataname t2m \
+--vq-act relu \
+--quantizer ema_reset \
+--loss-vel 0.5 \
+--recons-loss l1_smooth \
+--exp-name VQVAE
+```
+
+</details>
 
 
 ## 5. Evaluation 
