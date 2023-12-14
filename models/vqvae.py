@@ -22,7 +22,10 @@ class VQVAE_251(nn.Module):
         self.num_code = nb_code
         self.quant = args.quantizer
         #self.encoder = Encoder(251 if args.dataname == 'kit' else 263, output_emb_width, down_t, stride_t, width, depth, dilation_growth_rate, activation=activation, norm=norm)
-        self.encoder = Encoder_spatial(640, output_emb_width, down_t, stride_t, width, depth, dilation_growth_rate, activation=activation, norm=norm)
+        if arg.dataname == 'kit'
+            self.encoder = Encoder_spatial_kit(640, output_emb_width, down_t, stride_t, width, depth, dilation_growth_rate, activation=activation, norm=norm)
+        else:
+            self.encoder = Encoder_spatial(640, output_emb_width, down_t, stride_t, width, depth, dilation_growth_rate, activation=activation, norm=norm)
         self.decoder = Decoder(251 if args.dataname == 'kit' else 263, output_emb_width, down_t, stride_t, width, depth, dilation_growth_rate, activation=activation, norm=norm)
         if args.quantizer == "ema_reset":
             self.quantizer = QuantizeEMAReset(nb_code, code_dim, args)
