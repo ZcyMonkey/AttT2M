@@ -115,6 +115,44 @@ python3 train_vq.py \
 
 </details>
 
+### 4.2. GPT 
+
+The results are saved in the folder output.
+
+<details>
+<summary>
+GPT training
+</summary>
+
+```bash
+python3 train_t2m_trans.py  \
+--num_layers_cross 2 \
+--exp-name GPT \
+--batch-size 128 \
+--num-layers 9 \
+--embed-dim-gpt 1024 \
+--nb-code 512 \
+--n-head-gpt 16 \
+--block-size 51 \
+--ff-rate 4 \
+--drop-out-rate 0.1 \
+--resume-pth output/VQVAE/net_last.pth \
+--vq-name VQVAE \
+--out-dir output \
+--total-iter 300000 \
+--lr-scheduler 150000 \
+--lr 0.0001 \
+--dataname t2m \
+--down-t 2 \
+--depth 3 \
+--quantizer ema_reset \
+--eval-iter 10000 \
+--pkeep 0.5 \
+--dilation-growth-rate 3 \
+--vq-act relu
+```
+
+</details>
 
 ## 5. Evaluation 
 coming
