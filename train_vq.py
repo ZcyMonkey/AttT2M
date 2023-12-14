@@ -1,6 +1,5 @@
 import os
 import json
-os.environ['CUDA_VISIBLE_DEVICES'] = '5'
 import torch
 import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
