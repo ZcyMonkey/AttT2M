@@ -202,5 +202,16 @@ The evaluation for multimodality will take a long time. So for a quicker evaluat
 
 * Part of the code is borrowed from public code like [text-to-motion](https://github.com/EricGuo5513/text-to-motion), [T2M-GPT](https://github.com/Mael-zys/T2M-GPT), [MotionDiffuse](https://github.com/mingyuan-zhang/MotionDiffuse) etc.
 
+If our article or code is helpful to you, please cite our article：
+‘’‘
+@InProceedings{Zhong_2023_ICCV,
+    author    = {Zhong, Chongyang and Hu, Lei and Zhang, Zihao and Xia, Shihong},
+    title     = {AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {509-519}
+}
+’‘’
 
 
