@@ -10,7 +10,7 @@ The pre-train model and train/eval method are Updated. Please see below for more
 <img src="img/teaser.png" width="400px" alt="teaser">
 </p>
 
-If our article or code is helpful to you, please cite our article：
+If our paper or code is helpful to you, please cite our paper：
 ```
 @InProceedings{Zhong_2023_ICCV,
     author    = {Zhong, Chongyang and Hu, Lei and Zhang, Zihao and Xia, Shihong},
